@@ -29,7 +29,7 @@ public class FibonacciTests {
     }
 
     @Test
-    public void shouldThrowExceptionForNiggerNegativeNumber() {
+    public void shouldThrowExceptionForBiggerNegativeNumber() {
         assertThrows(IllegalArgumentException.class, () -> Fibonacci.fibonacci(-6));
     }
 
@@ -74,7 +74,6 @@ public class FibonacciTests {
     public void shouldReturnTrueFor1836311903() {
         assertTrue(Fibonacci.isFibonacci(1836311903));
     }
-
 
 
     @Test
