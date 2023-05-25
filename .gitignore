@@ -1,6 +1,8 @@
 **/.idea/
 **/__pycache__/
 **/.mvn/
+node_modules/
+package-lock.json
 Lab05/mvnw.cmd
 Lab05/mvnw
 Lab05/HELP.md
